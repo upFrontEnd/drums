@@ -3,6 +3,6 @@
 # Drumbs
 Play drumbs with Keyboard
 
-<a href="drumbs.netlify.app" target="_blank">
+<a href="https://drumbs.netlify.app" target="_blank">
     <img src="./img/screen.jpg" alt="Project preview">
 </a>
