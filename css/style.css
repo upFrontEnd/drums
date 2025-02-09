@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+  background: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat 0 0/cover;
+}
+body, html {
+  font: sans-serif;
+  margin: 0; padding: 0;
+}
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin: 150px auto 0;
+  text-align: center;
+  width: 600px; height: 400px;
+}
+.key {
+  background: rgba(0,0,0,0.4);
+  border: .4rem solid black;
+  border-radius: .5rem;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem; padding: 1rem .5rem;
+  text-align: center;
+  text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
+  width: 10rem;
+}
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(1.1);
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+.sound {
+  color: #ffc600;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
